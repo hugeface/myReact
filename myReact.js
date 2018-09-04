@@ -16,11 +16,18 @@ var component = {
             return _t.data[key];
         })
         _t.root.innerHTML = html;
+    },
+    start: function () {
+        var _t = this;
+        _t.render();
+        _t.ready();
+    },
+    ready: function () {
+        var _t = this;
+        setTimeout(function () {
+            _t.setData('name', 'React');
+        }, 2000);
     }
 };
 
-component.render();
-
-setTimeout(function () {
-    component.setData('name', 'React');
-}, 2000);
+component.start();
