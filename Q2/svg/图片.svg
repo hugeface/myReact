@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC " -//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd"><svg  x="0" y="0" width="40" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" rx="1" ry="1">
+ <script  type="text/ecmascript">
+<![CDATA[
+function ontest()
+{var newrect =  document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+ newrect.setAttribute('x','0');
+ newrect.setAttribute('y','0');
+ newrect.setAttribute('width','100');
+ newrect.setAttribute('height','100');
+var root = document.documentElement;
+root.appendChild(newrect);
+};
+]]>
+ </script>
+ <rect  x="421" y="162" rx="2" ry="2" width="33.332" height="27.681" fill="#282828" fill-opacity="1" stroke="#282828" stroke-opacity="1" stroke-width="2.00" transform="matrix(1,0,0,1,-417.573,-155.573)"/>
+ <polygon  points="421.890 178.867,428.511 180.964,443.187 171.916,453.339 180.964,453.008 188.247,422.111 188.026,422 186" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-opacity="1" stroke-width="1.00" transform="matrix(1,0,0,1,-417.573,-155.573)"/>
+ <circle  cx="426" cy="167" r="1" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-opacity="1" stroke-width="1.00" transform="matrix(1,0,0,1,-417.573,-155.573)"/>
+</svg>

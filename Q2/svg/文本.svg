@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC " -//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd"><svg  x="0" y="0" width="40" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <script  type="text/ecmascript">
+<![CDATA[
+function ontest()
+{var newrect =  document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+ newrect.setAttribute('x','0');
+ newrect.setAttribute('y','0');
+ newrect.setAttribute('width','100');
+ newrect.setAttribute('height','100');
+var root = document.documentElement;
+root.appendChild(newrect);
+};
+]]>
+ </script>
+ <rect  x="381" y="243" rx="1" ry="1" width="32" height="24" fill="#282828" fill-opacity="1" stroke="#282828" stroke-opacity="1" stroke-width="1.00" transform="matrix(1,0,0,1,-377,-235)"/>
+ <text  x="385" y="246" fill="#FFFFFF" fill-opacity="1" font-size="24.00" stroke="#FF0000" stroke-opacity="0" stroke-width="1" transform="matrix(1.703,0,0,1.056,-648.111,-230.879)" xml:space="preserve">T</text> 
+</svg>

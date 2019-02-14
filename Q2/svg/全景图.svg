@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC " -//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd"><svg  x="0" y="0" width="45" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" rx="1" ry="1">
+ <ellipse  cx="423" cy="177" rx="22" ry="7" fill="#FFFFFF" fill-opacity="1" stroke="#282828" stroke-opacity="1" stroke-width="2.00" transform="matrix(1,0,0,1,-400.581,-145.767)"/>
+ <script  type="text/ecmascript">
+<![CDATA[
+function ontest()
+{var newrect =  document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+ newrect.setAttribute('x','0');
+ newrect.setAttribute('y','0');
+ newrect.setAttribute('width','100');
+ newrect.setAttribute('height','100');
+var root = document.documentElement;
+root.appendChild(newrect);
+};
+]]>
+ </script>
+ <rect  x="421" y="162" rx="2" ry="2" width="33.332" height="27.681" fill="#282828" fill-opacity="1" stroke="#282828" stroke-opacity="1" stroke-width="2.00" transform="matrix(1,0,0,1,-415,-156)"/>
+ <polygon  points="421.890 178.867,428.511 180.964,443.187 171.916,453.339 180.964,453.008 188.247,422.111 188.026,422 186" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-opacity="1" stroke-width="1.00" transform="matrix(1,0,0,1,-415,-156)"/>
+ <circle  cx="426" cy="167" r="1" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-opacity="1" stroke-width="1.00" transform="matrix(1,0,0,1,-415,-156)"/>
+ <line  x1="402" y1="170" x2="402" y2="176.710" stroke="#FFFFFF" stroke-opacity="1" stroke-width="1.00" transform="matrix(1,0,0,1,-361.419,-145.600)"/>
+ <line  x1="401.800" y1="171.513" x2="401.800" y2="177.213" stroke="#FFFFFF" stroke-opacity="1" stroke-width="1.00" transform="matrix(1,0,0,1,-397.373,-146.897)"/>
+ <line  x1="0" y1="0" x2="0" y2="0" stroke="#FFFFFF" stroke-opacity="1" stroke-width="1.00" transform="matrix(1,0,0,1,0.030,9.103)"/>
+</svg>
