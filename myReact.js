@@ -14,7 +14,7 @@ var component = {
         var html = template.replace(/\{.*\}/g, function (res) {
             var key = res.substr(1, res.length - 2);
             return _t.data[key];
-        })
+        });
         _t.root.innerHTML = html;
     },
     start: function () {
