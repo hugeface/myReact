@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Index</title>
+        <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+        <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+        <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+        <style type="text/css">
+            .content{ width: 310px; margin: auto }
+            .title { display: flex; justify-content: flex-start; align-items: center }
+            .vote {
+                padding: 2px 5px;
+                margin-left: 5px;
+                font-size: 12px;
+                color: gray;
+                background: lightgray;
+                border-radius: 2px;
+            }
+            .btns{
+                display: flex;
+                justify-content: space-around;
+            }
+            .unclick-btn{
+                border: 1px solid lightgray;
+                padding: 5px 15px;
+                cursor: pointer;
+            }
+            .clicked-btn { border: unset; cursor: default}
+            .disabled-btn { border: unset; cursor: default; color: gray}
+            .progress{ height: 4px; background: #E0E0E0; margin-bottom: 2px }
+            .l-progress {
+                width: 0;
+                height: 100%;
+                background: black;
+                float: left;
+                animation: l-animation 3s;
+            }
+            .r-progress {
+                width: 0;
+                height: 100%;
+                background: black;
+                float: right;
+                animation: r-animation 3s;
+            }
+            @keyframes l-animation {
+                from { width: 0}
+                to { width: 30% }
+            }
+            @keyframes r-animation {
+                from { width: 0}
+                to { width: 70% }
+            }
+        </style>
+    <body>
+        <div id="root"></div>
+    </body>
+    <script type="text/babel">
+        class Q4 extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = { clickBnt: null };
+            }
+            click = (btn) => {
+                if (this.state.clickBnt) return;
+                this.setState({clickBnt: btn})
+            };
+            render() {
+                const { clickBnt } = this.state;
+                const getStyle = (btn) => {
+                    if (!clickBnt) return 'unclick-btn';
+                    if (btn === clickBnt) return 'clicked-btn';
+                    return 'disabled-btn';
+                };
+                return (
+                    <div className="content">
+                        <section>
+                            <h3 className="title"><strong>支持我的全新奥迪色</strong><span className="vote">投票</span></h3>
+                            <p style={{lineHeight: '24px', color: 'gray'}}>奥迪二零一七秋冬系列，快来这里寻找属于你的奥迪色二零一七秋冬系列，快来这里寻找属于你的奥迪快来这里寻找属于你的奥迪快来这里寻找属于你的奥迪色？</p>
+                        </section>
+                        { clickBnt &&
+                            <div className="progress">
+                                <div className={clickBnt === 'left' ? 'l-progress' : 'r-progress' }></div>
+                            </div>
+                        }
+                        <div className="btns" style={{ justifyContent: clickBnt ? 'space-between' : 'space-around' }}>
+                            <div onClick={this.click.bind(this, 'left')} className={getStyle('left')}>支持浪漫主义 {clickBnt ? '30%' : '' }</div>
+                            <div onClick={this.click.bind(this, 'right')} className={getStyle('right')}>支持酷感主义  {clickBnt ? '70%' : '' }</div>
+                        </div>
+                    </div>
+                );
+            }
+        }
+        ReactDOM.render(
+            <Q4 />,
+            document.getElementById('root')
+        );
+    </script>
+</html>
