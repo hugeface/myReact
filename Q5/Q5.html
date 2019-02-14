@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+    <style type="text/css">
+        .content{
+            width: 670px;
+            border: 1px solid lightgray;
+            padding: 10px;
+            margin: 10px auto;
+        }
+        .box {
+            width: 10px;
+            height: 10px;
+            margin: 1px;
+            text-align: center;
+        }
+        #wrapper {
+            display: grid;
+            grid-template-columns: repeat(53, 12px);
+            grid-template-rows: auto ;
+        }
+        .a { background: #E0E0E0 }
+        .b { background: green  }
+        .c { background: lightgreen }
+        .month { width: 630px; display: flex; justify-content: flex-start }
+        .month span { width: 70px; font-size: 12px }
+        .week {
+            height: 80px;
+            float: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-size: 12px;
+            margin: 15px 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <div class="week">
+        <span>Mon</span>
+        <span>Wed</span>
+        <span>Fri</span>
+    </div>
+    <div class="month">
+        <span>Jan</span>
+        <span>Feb</span>
+        <span>Mar</span>
+        <span>Apr</span>
+        <span>May</span>
+        <span>Jun</span>
+        <span>Jul</span>
+        <span>Aug</span>
+        <span>Sep</span>
+        <span>Oct</span>
+        <span>Nov</span>
+        <span>Dec</span>
+    </div>
+    <div id="wrapper"></div>
+</div>
+</body>
+<script type="text/javascript">
+    const data = [];
+    const len = Math.round(365.0 / 7.0 + 1) * 7;
+    for (let i = 0; i < len; i++) {
+        data[i] = Math.floor(Math.random() * 3 + 1);    // 生成1-3随机数
+    }
+    const fragment = document.createDocumentFragment();
+    data.map(item => {
+        const child = document.createElement('div');
+        child.setAttribute('class', `box ${item == 1 ? 'a' : (item == 2 ? 'b' : 'c')}`);
+        console.log(child);
+        fragment.append(child);
+    });
+    document.getElementById('wrapper').appendChild(fragment);
+</script>
+</html>

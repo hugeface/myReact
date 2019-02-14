@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9626dea4-ffd6-47e1-97d3-b84d8378a721" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Q5/Q5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myReact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Q4/Q4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q4/Q4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Q4/Q4.html" afterDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q4.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q5.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Q5/Q5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.dom.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="4058" column="4" selection-start-line="4058" selection-start-column="4" selection-end-line="4058" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Q4/Q4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="80">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -31,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,6 +71,7 @@
         <option value="$PROJECT_DIR$/Q4/Q4.css" />
         <option value="$PROJECT_DIR$/Q4/Q4.js" />
         <option value="$PROJECT_DIR$/Q4/Q4.html" />
+        <option value="$PROJECT_DIR$/Q5/Q5.html" />
       </list>
     </option>
   </component>
@@ -89,7 +108,7 @@
             <path>
               <item name="MyReact" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyReact" type="462c0819:PsiDirectoryNode" />
-              <item name="Q4" type="462c0819:PsiDirectoryNode" />
+              <item name="Q5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,7 +157,7 @@
       <updated>1535903929749</updated>
       <workItem from="1535903930940" duration="8811000" />
       <workItem from="1536074840343" duration="143000" />
-      <workItem from="1550151254380" duration="21094000" />
+      <workItem from="1550151254380" duration="26083000" />
     </task>
     <task id="LOCAL-00001" summary="Implement start and ready functions">
       <created>1536074950828</created>
@@ -161,11 +180,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550172003008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tencent Interview: question 4">
+      <created>1550180086602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550180086602</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14834000" />
+    <option name="totallyTimeSpent" value="19823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -176,9 +202,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32824427" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2355507" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.2355507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32824427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -199,7 +225,8 @@
     <MESSAGE value="Implement start and ready functions" />
     <MESSAGE value="Tencent Interview: question 1" />
     <MESSAGE value="Tencent Interview: question 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tencent Interview: question 2" />
+    <MESSAGE value="Tencent Interview: question 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tencent Interview: question 4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Q4/Q4.js">
@@ -311,8 +338,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Q4/Q4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="80">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="4058" column="4" selection-start-line="4058" selection-start-column="4" selection-end-line="4058" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q5/Q5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
         </state>
       </provider>
     </entry>
